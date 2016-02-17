@@ -4,7 +4,10 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <style>
-        span{border-bottom-style: solid; border-bottom-width: thin;}
+        .a ~ td{
+            rotation: 90deg;
+        }
+        -span{display: inline-block; width: 100px;margin-bottom: 2px; border-bottom-style: solid; border-bottom-width: thin; }
 
         table {
             border-collapse: collapse;
@@ -20,7 +23,7 @@
 <body>
 <table border="1" align="center">
     <tr>
-        <td>ИЗВЕЩЕНИЕ</td>
+        <td style="vertical-align: top">ИЗВЕЩЕНИЕ</td>
         <td>
             <div align="center">ОАО "Киевская городская телефонная сеть" <br>
             ИНН 7710016640, р/с 4564354333478346 в ОПЕРУ Приват Банка Украины <br>
@@ -100,15 +103,17 @@
         </td>
     </tr>
     <tr>
-        <td>КВИТАНЦИЯ <p align="down"><small>Кассир</small></p></td>
+        <td style="vertical-align: top">КВИТАНЦИЯ<p align="down"><small>Кассир</small></p></td>
         <td>
             <table width="60%">
                 <td class="noboard">Номер телефона:</td>
                 <td>(2</td>
                 <td>3</td>
-                <td>4)</td><td>2</td>
+                <td>4)</td>
+                <td>2</td>
                 <td>3</td>
-                <td>4</td><td>2</td>
+                <td>4</td>
+                <td>2</td>
                 <td>3</td>
                 <td>4</td>
             </table>
@@ -131,7 +136,7 @@
                     <td class="noboard"><span>2009</span></td>
                     <td class="noboard">года</td>
                 </tr>
-                <tr>
+                <tr class="a">
                     <td class="noboard"></td>
                     <td class="noboard"><sup>янв</sup></td>
                     <td class="noboard"><sup>февр</sup></td>
