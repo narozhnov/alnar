@@ -1,7 +1,7 @@
 .shadow{
     display: block;
     padding: 20px 30px;
-    box-shadow: 0 10px 10px 0 rgba(0,0,0,0.5);
+    box-shadow: 0 10px 30px 0 rgba(0,0,0,0.5);
     width: 750px;
     background: linear-gradient(lightyellow 79%, #FFDAB9 10% );
     background-position-y: 181px;
