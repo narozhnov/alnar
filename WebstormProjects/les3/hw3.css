@@ -1,0 +1,104 @@
+.shadow{
+    display: block;
+    padding: 20px 30px;
+    box-shadow: 0 10px 10px 0 rgba(0,0,0,0.5);
+    width: 750px;
+    background: linear-gradient(lightyellow 79%, #FFDAB9 10% );
+    background-position-y: 181px;
+    color: dimgrey;
+
+    }
+.h1, .h2{
+    padding: 0 10px;
+}
+.h2{
+    border-right: solid 1px;
+    border-left:solid 1px;
+    text-align: center;
+}
+.h4{
+    font-family: monospace;
+    padding-left:30px;
+    font-size: x-large;
+    word-spacing: 1em;
+    font-weight: normal;
+}
+.border{
+    display: inline-block;
+    border: solid 2px;
+    margin-right: 3px;
+    margin-top: 20px;
+    font-size: large;
+    padding: 3px;
+}
+.border:first-child{
+    padding-left: 25px;
+}
+.header{
+    font-weight: bold;
+    display: block;
+    border-collapse: collapse;
+}
+.body{
+    border: solid 1px;
+    border-bottom: none;
+}
+.text{
+    border:  solid 1px;
+    border-top: none;
+    white-space: pre;
+    line-height: 0.7em;
+    padding: 10px 0 20px 10px;
+    font-family: monospace;
+
+}
+.rotate, .rotate1{
+    transform: rotate(270deg);
+    padding: 5px;
+    font-size: x-small;
+    text-align: left;
+
+}
+.padding{
+    padding-right: 10px;
+}
+div.rotate1{
+    width: 35px;
+}
+td.xy{
+    height: 40px;
+    display: block;
+    transform: translate(51px, -54px);
+}
+.h3 {
+    padding-left: 10px;
+    padding-right: 15px;
+    border-right: solid 1px;
+    border-collapse: collapse;
+}
+.h3:last-child{
+    border-right: none;
+}
+.h5{
+    padding-right: 5px;
+    text-align: center;
+    width: 100%;
+    border-left: solid 1px;
+}
+.head2{
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+    border-collapse: collapse;
+    
+}
+.t2r2{
+
+    border-right: solid 1px;
+}
+.t2r3{
+    border-left: solid 1px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: left;
+}

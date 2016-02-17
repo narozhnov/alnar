@@ -1,0 +1,66 @@
+td {
+    border: 1px solid;
+    vertical-align: top;
+}
+table {
+    border-collapse: collapse;
+}
+.no-border, .no-border td {
+    border: none;
+}
+.small {
+    font-size: xx-small;
+}
+.dotted {
+    border: dashed 1px;
+    padding: 0 30px 30px 0;
+    border-top: none;
+    border-left: none;
+    display: inline-block;
+}
+.center {
+    text-align: center;
+}
+td h3 {
+    text-transform: uppercase;
+    margin: 10px;
+}
+.inline {
+    display: inline-block;
+}
+.width-text td {
+    padding: 0 10px;
+}
+.surname, .address {
+    border-bottom: solid 1px;
+}
+.surname {
+    padding-right: 150px;
+}
+.address {
+    padding-right: 300px;
+}
+.float-left {
+    border-left: none;
+}
+.nopad {
+    padding-left: 0;
+}
+.no-border-left {
+    border-left: none;
+}
+td>div {
+    margin-left: 10px;
+}
+.width-text td:first-child {
+    padding: 0;
+}
+.no-bottom>td {
+    border-bottom: none;
+}
+.no-left {
+    border-left: none;
+}
+.no-right {
+    border-right: none;
+}
