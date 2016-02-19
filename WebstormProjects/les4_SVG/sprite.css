@@ -68,7 +68,7 @@ p.speech2:after {
     width: 0;
     height: 0;
     left: 290px;
-    top: 12px;
+    top: 11px;
     border: 9px solid grey;
     border-color: transparent transparent #DCDCDC #DCDCDC;
 }
@@ -77,7 +77,7 @@ p.speech2:after {
 }
 .icon {
     position: relative;
-    width: 20px;
+    width: 40px;
     height: 20px;
     cursor: pointer;
     fill: gray;
@@ -91,9 +91,6 @@ p.speech2:after {
 }
 input#option{
     display: none;
-}
-input{
-    border: none;
 }
 form{
     position: relative;
