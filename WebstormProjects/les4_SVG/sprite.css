@@ -1,0 +1,98 @@
+p.speech {
+    position: relative;
+    right: -50px;
+    width: 250px;
+    height: 50px;
+    padding:10px 20px;
+    line-height: 1.5em;
+    background-color: #DCDCDC;
+    border: 1px solid #666;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 7px;
+    -webkit-box-shadow: 2px 2px 4px #888;
+    -moz-box-shadow: 2px 2px 4px #888;
+    box-shadow: 2px 2px 4px #888;
+}
+p.speech:before {
+    content: ' ';
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: -20px;
+    top: 18px;
+    border: 10px solid;
+    border-color: transparent #666 #666 transparent;
+    box-shadow: 0 0.5px 0 #888;
+}
+p.speech:after {
+    content: ' ';
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: -17px;
+    top: 19px;
+    border: 9px solid;
+    border-color: transparent #DCDCDC #DCDCDC transparent;
+}
+p.speech2{
+    position: relative;
+    right: -50px;
+    width: 250px;
+    height: 25px;
+    padding:10px 20px;
+    line-height: 1.5em;
+    background-color: #DCDCDC;
+    border: 1px solid #666;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+    -webkit-box-shadow: 2px 2px 4px #888;
+    -moz-box-shadow: 2px 2px 4px #888;
+    box-shadow: 2px 2px 4px #888;
+    text-align: right;
+}
+p.speech2:before {
+    content: ' ';
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: 290px;
+    border: 10px solid;
+    border-color: transparent transparent #666 #666;
+    box-shadow: 0 0.5px 0 #888;
+}
+p.speech2:after {
+    content: ' ';
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: 290px;
+    top: 11px;
+    border: 9px solid grey;
+    border-color: transparent transparent #DCDCDC #DCDCDC;
+}
+.text{
+    color: blue;
+}
+.icon {
+    position: relative;
+    width: 40px;
+    height: 20px;
+    cursor: pointer;
+    fill: gray;
+    padding-top: 10px;
+}
+.icon:hover {
+    fill: blue;
+}
+.compas, .icon-text-color, .icon-facebook2 {
+    fill: blue;
+}
+input#option{
+    display: none;
+}
+form{
+    position: relative;
+    right: -50px;
+}
