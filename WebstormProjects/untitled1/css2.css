@@ -1,26 +1,28 @@
 ul{
     width: 900px;
-    height: 3em;
     position: fixed;
     top: 0;
-    left: 0;
-    display: flex;
+    left: auto;
     align-items: center;
-    justify-content: center;
+    background: #8B008B ;
     overflow: auto;
-    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+
 }
 .nav li:hover{
     background: gainsboro;
     color: gray;
 
-    }
+}
 .nav li{
-
+    float: left;
     display: inline-block;
-    padding: 10px 20px;  /* Внутри блочные отступы. */
+    padding: 5px 20px;  /* Внутри блочные отступы. */
     background:#8B008B; /* Цвет блоков меню. */
     color: white; /* Цвет текста в блоках меню. */
     text-decoration: none; /* Устранение подчёркивания ссылок. */
+    font-stretch: condensed;
 
+}
+li.right{
+    float: right;
 }
