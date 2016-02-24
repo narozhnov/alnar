@@ -1,0 +1,205 @@
+body{
+    background: url("Background1.png");
+    /*font-family: 'Oswald', sans-serif;*/
+
+}
+.header {
+    position: relative;
+    display: inline-block;
+    width: 960px;
+    margin-left: 150px;
+    top: 28px;
+}
+.search{
+    top: 0;
+    right:-30px;
+    position: absolute;
+}
+label{
+    background: #29c5e6;
+    padding: 5px;
+    margin-left: -3px;
+    color: white;
+}
+#search{
+    height: 26px;
+    background: #f3f3f3;
+
+}
+/*   меню  */
+.menu {
+    position: relative;
+    left: 150px;
+    top: 28px;
+    width: 960px;
+    background: #f3f3f3;
+}
+.nav{
+    border-color: #bfbfbf;
+    border-width: thin;
+    height: 36px;
+}
+.nav li {
+    list-style: none;
+    float: left;
+    margin:0 ;
+    padding: 8px 0;
+
+}
+.nav a{
+    text-decoration: none;
+    font: 14px Arial, sans-serif;
+    color: #bfbfbf;
+    padding: 10px 20px;
+
+}
+.headline {
+    position: relative;
+    top: 40px;
+    left: 150px;
+}
+.nav a:hover {
+    background: #29c5e6;
+    color: white;
+}
+.hover a{
+    background: #29c5e6;
+    color: white;
+}
+/* боковое меню */
+.menu2 a{
+    text-decoration: none;
+    color: #8f8f8f;
+}
+.menu2 ul {
+    /*border: thin;
+    border-color: #bfbfbf;*/
+    position: relative;
+    width: 250px;
+    top: 60px;
+    font-size: 14px;
+    background: #f3f3f3;
+    left: 150px;
+    margin: 0;
+    padding: 0;
+    color: #8F8F8F;
+    list-style: square inside;
+}
+.menu2 li {
+    padding: 6px;
+    /*border: solid 1px;
+    border-color: #8F8F8F;*/
+
+}
+/*li:hover .submenu li{}*/
+li ul.submenu {
+    position: relative;
+    background: #e7e7e7;
+    left: -6px;
+    top: 8px;
+    width: 250px;
+}
+.submenu li.hov{
+    background: #f3f3f3;
+}
+.submenu li{
+    padding-left: 18px;
+    list-style: none;
+    font-size: 10px;
+}
+.hov a{
+    color: #29c5e6;
+}
+.hove>a{
+    color: #29c5e6;
+}
+/* как подсветіть подменю*/
+.container {
+    position: relative;
+    top:-475px;
+    left: 430px;
+    width: 680px;
+    color: #a6a6a6;
+}
+.map{
+    border: thin;
+    border-color: #7e7e7e;
+    position: relative;
+    left: 150px;
+    top: 70px;
+    background: #f3f3f3;
+    width: 250px;
+}
+h2, h4{
+    background: #29c5e6;
+    color: white;
+    padding: 4px 10px;
+    font-weight: lighter;
+    margin: 0;
+}
+.office{
+    padding: 10px;
+}
+.sign {
+    float: left; /* Выравнивание по правому краю */
+    margin: 10px 20px 10px 0;
+}
+.rel>.sign{
+    margin-right: 36px;
+}
+.sign figcaption {
+    text-align: center;
+}
+/*ФУТЕР*/
+.footer{
+    position: relative;
+    top: -450px;
+    bottom: 0;
+    left: 0;
+    width: 1260px;
+    height: 110px;
+    background: #7e7e7e;
+}
+.footer1{
+    position: relative;
+    top:0;
+    left: 0;
+    width: 1260px;
+    height: 5px;
+    background: #7e7e7e;
+
+}
+.tech, .footer{
+    clear: both;
+}
+.big{
+    padding: 5px;
+    width: 27px;
+    height: 27px;
+    fill: #6b98ee;
+}
+.small{
+    padding-right: 20px;
+    width: 15px;
+    height: 15px;
+    fill: #ffb045;
+}
+table {
+    position: relative;
+    color: white;
+    left: 150px;
+    padding-top: 7px;
+}
+h5{
+    margin: 0;
+    padding: 0;
+}
+table td{
+    padding: 0px 18px;
+}
+table td:last-child{
+    font-size: 9px;
+}
+table p{
+    margin: 0;
+}
