@@ -29,7 +29,7 @@ body{
     text-decoration: none;
 
 }
-.menu li{
+.menu li, ul{
     list-style: none;
 }
 .info{
@@ -97,7 +97,10 @@ body{
     border-radius: 180px;
     padding: 12%;
 }
-
+input::-webkit-input-placeholder::after, textarea::-webkit-input-placeholder::after {
+    content:"*";
+    color: #ffd670;
+}
 .right img{
     max-width: 100%;
     margin-left: 2%;
