@@ -1,0 +1,374 @@
+html, body{
+		overflow-x: hidden;
+}
+body{
+    font-family: 'Roboto Slab', serif;
+    color: white;
+}
+#home{
+    /*background: #5c5766;*/
+    background:
+            radial-gradient(circle at 0% 50%, rgba(96, 16, 48, 0) 9px, #613 10px, rgba(96, 16, 48, 0) 11px) 0 10px,
+            radial-gradient(at 100% 100%,     rgba(96, 16, 48, 0) 9px, #613 10px, rgba(96, 16, 48, 0) 11px),
+            #5c5766;
+    background-size: 20px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+.menu {
+    width: 960px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    margin-bottom: 140px;
+}
+.menu a{
+    color: white;
+    text-decoration: none;
+
+}
+.menu li{
+    list-style: none;
+}
+.info{
+    text-align: center;
+    margin-bottom: 45px;
+}
+.info p:first-child{
+    font-size: 30px;
+}
+.info p:nth-child(2){
+    font-size: 45px;
+
+}
+.info2{
+    display: flex;
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin-top: 165px;
+    margin-bottom: 130px;
+}
+.info2 p:nth-child(even) {
+    color: #b49a6b;
+    font-weight: bold;
+    margin-left: 10px;
+}
+.info2 p+p{
+    margin-left: 90px;
+}
+#about{
+    flex-direction: column;
+    background-color: #524664;
+}
+.logo2 {
+    display:flex;
+    justify-content: center;
+    padding: 100px 0;
+}
+.block{
+    margin-left: 150px;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 115px;
+    margin-right: 150px;
+}
+.left_side h3{
+	margin-top: 0;
+}
+.left_side{
+    color: #c4c0cf;
+    max-width: 100%;
+    width: 500px;
+    line-height: 2;
+	
+
+}
+.photo{
+    display: inline-table;
+    max-width: 100%;
+    margin: 2%;
+}
+.photo img{
+
+    border: solid 7px #ffd670;
+    border-radius: 180px;
+    padding: 12%;
+}
+
+.right img{
+    max-width: 100%;
+    margin-left: 2%;
+}
+#portfolio{
+
+    background: #ffd670;
+    flex-direction: column;
+    padding-bottom: 100px;
+}
+.galery{
+    display: flex;
+    width: 1020px;
+    height: 683px;
+    background: url("img/hero-bg.jpg");
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 150px;
+    margin-left: 1%;
+
+}
+.info3{
+    margin-left: 150px;
+    width: 470px;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.submenu li{
+    display: inline-flex;
+    padding: 11px 19px;
+    margin: 20px;
+}
+.submenu li:first-child{
+
+    border: solid 1px;
+}
+.submenu{
+    display: flex;
+    justify-content: center;
+}
+.romb{
+    margin: 40px 150px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.rombo{
+    width: 150px;
+    height: 150px;
+    border-radius: 15px;
+    transform: rotate(45deg);
+    background: #fff0ca;
+    margin: 40px;
+    font-size: 9px;
+}
+.rombo:nth-child(3){
+    background: #5c5766;
+}
+.rombo p, .rombo img {
+    transform: rotate(-45deg);
+}
+.rombo p{
+    position: relative;
+    left: -16px;
+    bottom: -22px;
+}
+.rombo p+p{
+       bottom: -24px;
+    position: relative;
+    text-align: center;
+}
+.rombo img{
+    position: relative;
+  
+    left: 61px;
+}
+#blog{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #bec0c9;
+    justify-content: center;
+
+}
+article h3, .imginfo h3{
+    color: #373c4f;
+}
+.small{
+    font-size: 10px;
+}
+article{
+    width: 680px;
+}
+.content_blog{
+    display: flex;
+    flex-direction: row;
+}
+.colum{
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    line-height: 3;
+    margin-left: 35px;
+    list-style: none;
+
+}
+input{
+    width: 300px;
+    height: 60px;
+    background-color: #f8f8f8;
+}
+.find{
+    position: relative;
+    top: -46px;
+    right: -265px;
+}
+.chat{
+    display: flex;
+    border-bottom: solid 1px;
+    padding: 40px 0;
+
+
+}
+name{
+    color: #ffdb83;
+}
+.chat div+div {
+    padding-left: 20px;
+}
+.chat:nth-child(odd) {
+    padding-left: 100px;
+}
+.comment input:last-child{
+    width: 100%;
+    height: 206px;
+    margin-bottom: 20px;
+}
+.comment input{
+    width: 324px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.comment input+input{
+    float: right;
+}
+button{
+    width: 190px;
+    height: 55px;
+    border-radius: 5px;
+    background: #ffdb83;
+    color: white;
+    font-size: 15px;
+    margin-top: 40px;
+    margin-bottom: 157px;
+    border-color: transparent;
+}
+.img{
+    width: 345px;
+    height: 295px;
+    border-radius: 10px 10px 0 0;
+    background: #ffdb83;
+}
+.imginfo{
+    height: 182px;
+    width: 320px;
+    background: #f3f3f3;
+    border-radius: 0 0 10px 10px;
+    padding: 35px 0 25px 25px;
+    font-size: 15px;
+}
+.related{
+    margin-right: 36px;
+}
+.scroll{
+    display: inline-flex;
+    overflow-x: scroll;
+    height: 600px;
+    width: 80%;
+    margin-bottom: 96px;
+}
+#footer{
+    background:
+            radial-gradient(circle at 0% 50%, rgba(96, 16, 48, 0) 9px, #613 10px, rgba(96, 16, 48, 0) 11px) 0 10px,
+            radial-gradient(at 100% 100%,     rgba(96, 16, 48, 0) 9px, #613 10px, rgba(96, 16, 48, 0) 11px),
+            #5c5766;
+    background-size: 20px 20px;
+    display:flex;
+    flex-direction: column;
+
+}
+.btm{
+    display: flex;
+    justify-content: center;
+    margin: 60px 0 100px 0;
+}
+.btm button{
+    background: transparent;
+    display: inline-flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+.text{
+    text-align: center;
+    font-size: 20px;
+    margin-top: -30px;
+}
+.text img+img{
+    padding-left: 50px;
+}
+.btm button+button{
+    transform: rotate(180deg);
+}
+#contact{
+    color: #bec0c9;
+    width: 900px;
+    margin: auto;
+}
+#contact .comment input{
+    width: 429px;
+    margin-top: 44px;
+}
+#contact .comment input+input{
+    margin-left: 30px;
+}
+#contact .comment textarea{
+    width: 100%;
+    height: 206px;
+    margin-top: 44px;
+    background-color: #f8f8f8;
+
+}
+#contact div{
+    text-align: center;
+}
+#contact button{
+    display: block;
+    margin: 40px auto;
+
+}
+@media only screen and (max-width: 1000px) {
+    #home {
+        background: white;
+        color: #5c5766;
+    }
+
+    .menu {
+        width: 500px;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 60px;
+        margin-bottom: 140px;
+    }
+
+    .menu a {
+        color: #373c4f;
+    }
+    .block, .content, .content_blog{
+        flex-direction: column;
+    }
+    .galery{
+        margin: auto;
+        width: 600px;
+        height: 400px;
+    }
+    .romb, .scroll{
+        display: none;
+    }
+	
+}
