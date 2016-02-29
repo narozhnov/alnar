@@ -101,6 +101,7 @@ input::-webkit-input-placeholder::after, textarea::-webkit-input-placeholder::af
     content:"*";
     color: #ffd670;
 }
+
 .right img{
     max-width: 100%;
     margin-left: 2%;
