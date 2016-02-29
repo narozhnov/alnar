@@ -1,5 +1,6 @@
 html, body{
 		overflow-x: hidden;
+    
 }
 body{
     font-family: 'Roboto Slab', serif;
@@ -150,7 +151,6 @@ input::-webkit-input-placeholder::after, textarea::-webkit-input-placeholder::af
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-
 }
 .rombo{
     width: 150px;
