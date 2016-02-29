@@ -1,0 +1,28 @@
+ul{
+    width: 900px;
+    position: fixed;
+    top: 0;
+    left: auto;
+    align-items: center;
+    background: #8B008B ;
+    overflow: auto;
+
+}
+.nav li:hover{
+    background: gainsboro;
+    color: gray;
+
+}
+.nav li{
+    float: left;
+    display: inline-block;
+    padding: 5px 20px;  /* Внутри блочные отступы. */
+    background:#8B008B; /* Цвет блоков меню. */
+    color: white; /* Цвет текста в блоках меню. */
+    text-decoration: none; /* Устранение подчёркивания ссылок. */
+    font-stretch: condensed;
+
+}
+li.right{
+    float: right;
+}
