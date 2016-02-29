@@ -1,0 +1,17 @@
+li.bn{
+    border: solid 1px;
+    border-radius: 7px;
+}
+li.bn:hover{
+    background: #8B008B;
+    color: white;
+}
+li{
+
+    display: inline-block;
+    color: #8B008B;
+    font-size: 10px;
+    padding: 5px 10px;
+    margin: 5px;
+
+}
