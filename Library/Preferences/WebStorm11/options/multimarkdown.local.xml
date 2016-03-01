@@ -7,6 +7,6 @@
     </LicenseInformation>
     <Notifications showFeatureUpdates="true" />
     <FailedInBuild scratchFileServiceFailed="" fxPreviewFailedBuild="" lightParserFailedBuild="" />
-    <WasShown licensedAvailable="true" lastFeatureUpdateVersion="1.4.4" javaFxAvailable="false" />
+    <WasShown licensedAvailable="true" lastFeatureUpdateVersion="1.4.5" javaFxAvailable="false" />
   </component>
 </application>
