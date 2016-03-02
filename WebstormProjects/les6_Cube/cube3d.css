@@ -1,0 +1,107 @@
+.kubiki {
+  width: 10em;
+  height: 10em;
+  border: solid 1px;
+  margin: 5em;
+  transform-style: preserve-3d;
+  animation: rotate 10s infinite linear; }
+
+@keyframes rotate {
+  100% {
+    transform: rotateX(360deg) rotateY(360deg) rotateZ(360deg); } }
+.side {
+  position: absolute;
+  width: 10em;
+  height: 10em;
+  opacity: 0.7;
+  border: solid 1px; }
+
+.left {
+  transform: translateX(-5em) rotateY(90deg); }
+
+.right {
+  transform: translateX(5em) rotateY(90deg); }
+
+.top {
+  transform: translateY(-5em) rotateX(90deg); }
+
+.down {
+  transform: translateY(5em) rotateX(90deg); }
+
+.out {
+  transform: translateZ(-5em); }
+
+.in {
+  transform: translateZ(5em); }
+
+body {
+  -webkit-perspective: 500px;
+  -webkit-perspective-origin: -5em;
+  perspective: 500px;
+  perspective-origin: -5em; }
+
+.kub {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  border: solid 1px;
+  border-radius: 5px;
+  background: -webkit-radial-gradient(center, circle, rgba(255, 255, 255, 0.35), rgba(255, 255, 255, 0) 20%, rgba(255, 255, 255, 0) 21%), -webkit-radial-gradient(center, circle, rgba(0, 0, 0, 0.2), transparent 20%, transparent 21%), -webkit-radial-gradient(center, circle farthest-corner, #f0f0f0, #c0c0c0);
+  background: -moz-radial-gradient(center, circle, rgba(255, 255, 255, 0.35), rgba(255, 255, 255, 0) 20%, rgba(255, 255, 255, 0) 21%), -webkit-radial-gradient(center, circle, rgba(0, 0, 0, 0.2), transparent 20%, transparent 21%), -webkit-radial-gradient(center, circle farthest-corner, #f0f0f0, #c0c0c0);
+  background: -ms-radial-gradient(center, circle, rgba(255, 255, 255, 0.35), rgba(255, 255, 255, 0) 20%, rgba(255, 255, 255, 0) 21%), -webkit-radial-gradient(center, circle, rgba(0, 0, 0, 0.2), transparent 20%, transparent 21%), -webkit-radial-gradient(center, circle farthest-corner, #f0f0f0, #c0c0c0);
+  background: -o-radial-gradient(center, circle, rgba(255, 255, 255, 0.35), rgba(255, 255, 255, 0) 20%, rgba(255, 255, 255, 0) 21%), -webkit-radial-gradient(center, circle, rgba(0, 0, 0, 0.2), transparent 20%, transparent 21%), -webkit-radial-gradient(center, circle farthest-corner, #f0f0f0, #c0c0c0);
+  background: radial-gradient(center, circle, rgba(255, 255, 255, 0.35), rgba(255, 255, 255, 0) 20%, rgba(255, 255, 255, 0) 21%), -webkit-radial-gradient(center, circle, rgba(0, 0, 0, 0.2), transparent 20%, transparent 21%), -webkit-radial-gradient(center, circle farthest-corner, #f0f0f0, #c0c0c0);
+  background-size: 10px 10px, 10px 10px, 100% 100%;
+  background-position: 1px 1px, 0 0, center center; }
+
+.point {
+  border: solid 1px;
+  border-radius: 50px;
+  height: 25px;
+  width: 25px;
+  margin: 6px;
+  box-shadow: inset 0 4px;
+  background: white; }
+
+.b div {
+  margin: auto; }
+
+.a {
+  justify-content: space-between; }
+
+.a div:first-child {
+  align-self: flex-start; }
+
+.a div:last-child {
+  align-self: flex-end; }
+
+.c div:nth-child(2), .s {
+  margin: auto; }
+
+.f {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; }
+
+.m {
+  justify-content: space-between; }
+
+.b div {
+  background: red; }
+
+.a div {
+  background: yellow; }
+
+.c div {
+  background: blue; }
+
+.f div {
+  background: blueviolet; }
+
+.gr div, .s div {
+  background: green; }
+
+.w div {
+  background: saddlebrown; }
+
+/*# sourceMappingURL=cube3d.css.map */
