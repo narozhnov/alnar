@@ -1,5 +1,6 @@
-<application>
-  <component name="ApplicationTasksOptions">
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectTasksOptions">
     <TaskOptions isEnabled="true">
       <option name="arguments" value="--no-cache --update $FileName$:$FileNameWithoutExtension$.css" />
       <option name="checkSyntaxErrors" value="true" />
@@ -20,4 +21,4 @@
       <envs />
     </TaskOptions>
   </component>
-</application>
+</project>
