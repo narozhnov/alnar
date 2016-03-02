@@ -1,9 +1,12 @@
 $display: flex;
 $border: solid 1px;
 $border-radius: 50px;
-$width: 100px;
+$width: 100%;
+$height: 10em;
 $justify-content: space-between;
 $margin: auto;
+$opa: 0.7;
+$rotate: 90deg;
 
 @mixin background {
   background: -webkit-radial-gradient(center, circle, rgba(255,255,255,.35), rgba(255,255,255,0) 20%, rgba(255,255,255,0) 21%), -webkit-radial-gradient(center, circle, rgba(0,0,0,.2), rgba(0,0,0,0) 20%, rgba(0,0,0,0) 21%), -webkit-radial-gradient(center, circle farthest-corner, #f0f0f0, #c0c0c0);
@@ -15,8 +18,46 @@ $margin: auto;
   background-position: 1px 1px, 0 0, center center;
 }
 .kubiki{
-  display: $display;
-  justify-content: space-around;
+  width:$height;
+  height:$height;
+  border: $border;
+  margin: $height/2;
+  transform-style: preserve-3d;
+  animation: rotate 10s infinite linear;
+}
+@keyframes rotate {
+  100% {
+    transform: rotateX(360deg) rotateY(360deg) rotateZ(360deg);
+  }
+}
+.side{
+  position: absolute;
+  width: $height;
+  height: $height;
+  opacity:$opa;
+  border: $border;
+}
+.left{
+  transform: translateX(-$height/2) rotateY($rotate);
+}
+.right {
+  transform: translateX($height/2) rotateY($rotate);
+}
+.top{
+  transform: translateY(-$height/2) rotateX($rotate);
+}
+.down{
+    transform: translateY($height/2) rotateX($rotate);
+  }
+.out{
+  transform: translateZ(-$height/2);
+}
+.in{
+  transform: translateZ($height/2);
+}
+body{
+  perspective: 500px;
+  perspective-origin: -$height/2;
 }
 .kub {
   display:$display;
@@ -24,14 +65,13 @@ $margin: auto;
   width: $width;
   border: $border;
   border-radius: $border-radius/10;
-  box-shadow: 0 3px 5px 0 #333333;
   @include background();
 }
 .point {
   border: $border;
   border-radius: $border-radius;
-  height: $width/5;
-  width: $width/5;
+  height: $border-radius/2;
+  width: $border-radius/2;
   margin: 6px;
   box-shadow: inset 0 4px;
   background: white;
@@ -52,8 +92,7 @@ $margin: auto;
 .c div:nth-child(2), .s{
   margin: $margin;
 }
-.f
-{
+.f {
   display: $display;
   flex-direction: column;
   justify-content: $justify-content;
